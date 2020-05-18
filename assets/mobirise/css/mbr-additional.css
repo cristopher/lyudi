@@ -144,7 +144,7 @@ body {
   background-color: #879a9f !important;
 }
 .bg-danger {
-  background-color: #b1a374 !important;
+  background-color: #ffffff !important;
 }
 .btn-primary,
 .btn-primary:active {
@@ -248,23 +248,23 @@ body {
 }
 .btn-danger,
 .btn-danger:active {
-  background-color: #b1a374 !important;
-  border-color: #b1a374 !important;
-  color: #ffffff !important;
+  background-color: #ffffff !important;
+  border-color: #ffffff !important;
+  color: #808080 !important;
 }
 .btn-danger:hover,
 .btn-danger:focus,
 .btn-danger.focus,
 .btn-danger.active {
-  color: #ffffff !important;
-  background-color: #8b7d4e !important;
-  border-color: #8b7d4e !important;
+  color: #808080 !important;
+  background-color: #d9d9d9 !important;
+  border-color: #d9d9d9 !important;
 }
 .btn-danger.disabled,
 .btn-danger:disabled {
-  color: #ffffff !important;
-  background-color: #8b7d4e !important;
-  border-color: #8b7d4e !important;
+  color: #808080 !important;
+  background-color: #d9d9d9 !important;
+  border-color: #d9d9d9 !important;
 }
 .btn-white {
   color: #333333 !important;
@@ -412,22 +412,22 @@ body {
 .btn-danger-outline,
 .btn-danger-outline:active {
   background: none;
-  border-color: #7a6e45;
-  color: #7a6e45;
+  border-color: #cccccc;
+  color: #cccccc;
 }
 .btn-danger-outline:hover,
 .btn-danger-outline:focus,
 .btn-danger-outline.focus,
 .btn-danger-outline.active {
-  color: #ffffff;
-  background-color: #b1a374;
-  border-color: #b1a374;
+  color: #808080;
+  background-color: #ffffff;
+  border-color: #ffffff;
 }
 .btn-danger-outline.disabled,
 .btn-danger-outline:disabled {
-  color: #ffffff !important;
-  background-color: #b1a374 !important;
-  border-color: #b1a374 !important;
+  color: #808080 !important;
+  background-color: #ffffff !important;
+  border-color: #ffffff !important;
 }
 .btn-black-outline,
 .btn-black-outline:active {
@@ -479,7 +479,7 @@ body {
   color: #879a9f !important;
 }
 .text-danger {
-  color: #b1a374 !important;
+  color: #ffffff !important;
 }
 .text-white {
   color: #ffffff !important;
@@ -509,7 +509,7 @@ a.text-warning:focus {
 }
 a.text-danger:hover,
 a.text-danger:focus {
-  color: #7a6e45 !important;
+  color: #cccccc !important;
 }
 a.text-white:hover,
 a.text-white:focus {
@@ -529,7 +529,7 @@ a.text-black:focus {
   background-color: #879a9f;
 }
 .alert-danger {
-  background-color: #b1a374;
+  background-color: #ffffff;
 }
 .mbr-section-btn a.btn:not(.btn-form) {
   border-radius: 100px;
@@ -585,7 +585,7 @@ a:hover {
 }
 .mbr-plan-header.bg-danger .mbr-plan-subtitle,
 .mbr-plan-header.bg-danger .mbr-plan-price-desc {
-  color: #dfd9c6;
+  color: #ffffff;
 }
 /* Scroll to top button*/
 .scrollToTop_wraper {
@@ -1394,13 +1394,13 @@ body {
   border-top-color: #325c92;
 }
 .cid-rXTsrf07Ps .navbar {
-  background: #ffffff;
+  background: #325c92;
   transition: none;
   min-height: 77px;
   padding: .5rem 0;
 }
 .cid-rXTsrf07Ps .navbar-dropdown.bg-color.transparent.opened {
-  background: #ffffff;
+  background: #325c92;
 }
 .cid-rXTsrf07Ps a {
   font-style: normal;
@@ -1491,7 +1491,7 @@ body {
   padding-bottom: 0;
 }
 .cid-rXTsrf07Ps .dropdown .dropdown-menu {
-  background: #ffffff;
+  background: #325c92;
   display: none;
   position: absolute;
   min-width: 5rem;
@@ -1562,7 +1562,7 @@ body {
   width: 30px;
   height: 2px;
   border-right: 5px;
-  background-color: #333333;
+  background-color: #ffffff;
 }
 .cid-rXTsrf07Ps button.navbar-toggler .hamburger span:nth-child(1) {
   top: 0;
@@ -1627,6 +1627,10 @@ body {
 .cid-rXTsrf07Ps .collapsed .navbar-collapse.collapsing .navbar-nav .nav-item,
 .cid-rXTsrf07Ps .collapsed .navbar-collapse.show .navbar-nav .nav-item {
   clear: both;
+}
+.cid-rXTsrf07Ps .collapsed .navbar-collapse.collapsing .navbar-nav .nav-item:last-child,
+.cid-rXTsrf07Ps .collapsed .navbar-collapse.show .navbar-nav .nav-item:last-child {
+  margin-bottom: 1rem;
 }
 .cid-rXTsrf07Ps .collapsed .navbar-collapse.collapsing .navbar-buttons,
 .cid-rXTsrf07Ps .collapsed .navbar-collapse.show .navbar-buttons {
@@ -1728,6 +1732,10 @@ body {
   .cid-rXTsrf07Ps .navbar-collapse.collapsing .navbar-nav .nav-item,
   .cid-rXTsrf07Ps .navbar-collapse.show .navbar-nav .nav-item {
     clear: both;
+  }
+  .cid-rXTsrf07Ps .navbar-collapse.collapsing .navbar-nav .nav-item:last-child,
+  .cid-rXTsrf07Ps .navbar-collapse.show .navbar-nav .nav-item:last-child {
+    margin-bottom: 1rem;
   }
   .cid-rXTsrf07Ps .navbar-collapse.collapsing .navbar-buttons,
   .cid-rXTsrf07Ps .navbar-collapse.show .navbar-buttons {
